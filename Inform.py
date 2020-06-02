@@ -16,7 +16,8 @@ import requests
 Inform packet header: Big endian
     Magic string ( TNBU )
     packet_version ( 0 )
-    MAC Address
+    MAC Address - Must match mac address inside inform packet to be
+                  accepted by the controller.
     Flags
         bit 1 - is encrypted
         bit 2 - is zlib compressed
