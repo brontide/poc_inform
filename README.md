@@ -8,7 +8,8 @@ LOCATION.**
 
 ```
 virtualenv -p python3 venv
-./venv/bin/activate
+. ./venv/bin/activate
+pip install -r requirements.txt
 python ./inform_sniffer.py
 
 ```
