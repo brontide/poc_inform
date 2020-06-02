@@ -1,0 +1,9 @@
+
+#
+# Replace with real controller address to proxy to
+real_url = 'http://unifi:8080/inform'
+
+#
+# Replace with real device key
+#
+device_key='1C6592EF70601F95D2B24A3XXXXXX'
