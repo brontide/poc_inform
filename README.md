@@ -9,15 +9,4 @@ LOCATION.**
 ```
 virtualenv -p python3 venv
 ./venv/bin/activate
-python ./inform_sniffer.py
-
 ```
-
-On the device you will need to repoint to this sniffer which will proxy the inform to the real controller.
-
-```
-mca-ctrl -t connect -s "<http://THISADDRESS:18080/inform>"
-# To revert
-mca-ctrl -t connect -s "<http://CONTROLLER:8080/inform>"
-```
-
