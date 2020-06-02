@@ -1,0 +1,8 @@
+
+#
+# REPLACE WITH YOUR CONTOLLER ADDRESS
+real_url = 'http://unifi:8080/inform'
+
+#
+# REPLACE WITH YOUR DEVICE KEY
+device_key = '0123456789ABCDEF'
